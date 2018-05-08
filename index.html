@@ -10,6 +10,9 @@
     <!-- Title -->
     <title>Wepala</title>
 
+    <!--Manifest-->
+    <link rel="manifest" href="manifest.json" />
+
     <!-- Core Stylesheet -->
     <link href="layouts/style.css" rel="stylesheet">
 
@@ -40,19 +43,41 @@
                 </a>
             </div>
             <nav class="d-menu" id="d-navmenu">
-                <a href="#" class="m-menu__icon">
+                <a href="javascript:void(0);" onclick="toggleMenu()" class="m-menu__icon">
                     <i class="fas fa-bars 3x"></i>
                 </a>
                 <a href="#" class="d-menu__item--active" id="d-navactive">HOME</a>
                 <a href="#" class="d-menu__item">WHO WE ARE</a>
                 <a href="#" class="d-menu__item">WHAT WE DO</a>
                 <a href="#" class="d-menu__item">CONTACT US</a>
+
+                <!--Mobile Menu -->
+                <div class="m-menu--hide" id="m-navmenu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);" onclick="toggleMenu()" class="m-menu__close"> X</a>
+                        </li>
+                        <li>
+                            <a href="#" class="m-menu__item--active" id="m-navactive">HOME</a>
+                        </li>
+                        <li>
+                            <a href="#" class="m-menu__item">WHO WE ARE</a>
+                        </li>
+                        <li>
+                            <a href="#" class="m-menu__item">WHAT WE DO</a>
+                        </li>
+                        <li>
+                            <a href="#" class="m-menu__item">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
+
         </div>
     </div>
 
     <!-- Desktop Header -->
-    <div class="d-header">
+    <div class="d-header" id="headerContainer">
         <div class="d-header__background--left">
             <div class="d-header__svg-left">
                 <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" viewBox="0 0 222.031 801.938">
@@ -82,38 +107,40 @@
 
         </div>
         <div class="d-header__numbers d-header__numbers--1">
-            <a href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108" height="108" viewBox="0 0 108 108">
-                    <defs>
-                        <style>
-                            @font-face {
-                                font-family: "Mont-Heavy";
-                                src: url("../fonts/mont/Mont-Heavy.otf") format("opentype");
-                            }
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108" height="108" viewBox="0 0 108 108">
+                <defs>
+                    <style>
+                        @font-face {
+                            font-family: "Mont-Heavy";
+                            src: url("../fonts/mont/Mont-Heavy.otf") format("opentype");
+                        }
 
-                            .cls-circle {
-                                fill: #045083;
-                                filter: url(#filter);
-                            }
+                        .cls-circle {
+                            fill: #045083;
+                            filter: url(#filter);
+                        }
 
-                            .cls-text {
-                                font-family: "Mont-Heavy";
-                                font-size: 1.5em;
-                            }
-                        </style>
-                        <filter id="filter" x="0" y="0" width="108" height="108" filterUnits="userSpaceOnUse">
-                            <feOffset result="offset" dy="10" in="SourceAlpha" />
-                            <feGaussianBlur result="blur" stdDeviation="4.899" />
-                            <feFlood result="flood" flood-color="#16355c" flood-opacity="0.24" />
-                            <feComposite result="composite" operator="in" in2="blur" />
-                            <feBlend result="blend" in="SourceGraphic" />
-                        </filter>
-                    </defs>
-                    <circle id="Эллипс_1_копия_3" data-name="Эллипс 1 копия 3" class="cls-circle" cx="53.5" cy="43.5" r="30.5" />
-                    <text x="50%" y="50%" text-anchor="middle" fill="#fff" class="cls-text">1</text>
+                        .cls-text {
+                            font-family: "Mont-Heavy";
+                            font-size: 1.5em;
+                        }
+                    </style>
+                    <filter id="filter" x="0" y="0" width="108" height="108" filterUnits="userSpaceOnUse">
+                        <feOffset result="offset" dy="10" in="SourceAlpha" />
+                        <feGaussianBlur result="blur" stdDeviation="4.899" />
+                        <feFlood result="flood" flood-color="#16355c" flood-opacity="0.24" />
+                        <feComposite result="composite" operator="in" in2="blur" />
+                        <feBlend result="blend" in="SourceGraphic" />
+                    </filter>
+                </defs>
+                <circle id="Эллипс_1_копия_3" data-name="Эллипс 1 копия 3" class="cls-circle" cx="53.5" cy="43.5" r="30.5" />
+                <text x="50%" y="50%" text-anchor="middle" fill="#fff" class="cls-text">1</text>
 
-                </svg>
-            </a>
+            </svg>
+
+            <span class="d-header__tooltip--text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit libero sem, ut malesuada nibh commodo
+                sit amet. In eu pellentesque magna, ac pulvinar dui. </span>
+
         </div>
         <div class="d-header__numbers d-header__numbers--2">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108" height="108" viewBox="0 0 108 108">
@@ -146,6 +173,9 @@
                 <text x="50%" y="50%" text-anchor="middle" fill="#fff" class="cls-text">2</text>
 
             </svg>
+
+            <span class="d-header__tooltip--text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit libero sem, ut malesuada nibh commodo
+                sit amet. In eu pellentesque magna, ac pulvinar dui. </span>
         </div>
         <div class="d-header__numbers d-header__numbers--3">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108" height="108" viewBox="0 0 108 108">
@@ -178,8 +208,11 @@
                 <text x="50%" y="50%" text-anchor="middle" fill="#fff" class="cls-text">3</text>
 
             </svg>
+
+            <span class="d-header__tooltip--text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit libero sem, ut malesuada nibh commodo
+                sit amet. In eu pellentesque magna, ac pulvinar dui. </span>
         </div>
-        <div class="d-header__numbers d-header__numbers--4">
+        <div class="d-header__numbers d-header__numbers--4" id="numbers">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108" height="108" viewBox="0 0 108 108">
                 <defs>
                     <style>
@@ -210,6 +243,9 @@
                 <text x="50%" y="50%" text-anchor="middle" fill="#fff" class="cls-text">4</text>
 
             </svg>
+
+            <span class="d-header__tooltip--text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit libero sem, ut malesuada nibh commodo
+                sit amet. In eu pellentesque magna, ac pulvinar dui. </span>
         </div>
         <div class="d-header__numbers d-header__numbers--5">
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108" height="108" viewBox="0 0 108 108">
@@ -242,6 +278,9 @@
                 <text x="50%" y="50%" text-anchor="middle" fill="#fff" class="cls-text">5</text>
 
             </svg>
+
+            <span class="d-header__tooltip--text5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce hendrerit libero sem, ut malesuada nibh commodo
+                sit amet. In eu pellentesque magna, ac pulvinar dui. </span>
         </div>
         <div class="d-header__background--right">
             <div class="d-header__svg--right">
@@ -328,7 +367,7 @@
                     </a>
                 </div>
 
-                <img src="assets/plan.png" class="m-hero__svg--img" />
+                <img src="assets/plan.png" class="m-hero__svg--img img--1" />
             </div>
         </div>
 
@@ -366,7 +405,7 @@
 
                     </svg>
                 </div>
-                <img src="assets/design.png" class="m-hero__svg--img" />
+                <img src="assets/design.png" class="m-hero__svg--img img--2" />
             </div>
         </div>
 
@@ -405,7 +444,7 @@
 
                     </svg>
                 </div>
-                <img src="assets/build.png" class="m-hero__svg--img" />
+                <img src="assets/build.png" class="m-hero__svg--img img--3" />
             </div>
         </div>
 
@@ -444,7 +483,7 @@
 
                     </svg>
                 </div>
-                <img src="assets/test.png" class="m-hero__svg--img" />
+                <img src="assets/test.png" class="m-hero__svg--img img--4" />
             </div>
         </div>
 
@@ -534,20 +573,6 @@
 
             <div class="d-slider__slide fade">
                 <img src="assets/work-img2.png" />
-                <div class="d-slider__slide--text">
-                    <h2 class="d-slider__slide--h2">
-                        <span>Project Name</span>
-                    </h2>
-                    <p class="d-slider__slide--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum imperdiet risus facilisis urna pretium,
-                        eu elementum nisl convallis. Phasellus finibus augue nec pretium mollis. Sed vehicula imperdiet sem
-                        vel tincidunt. Nunc nec dictum leo. Mauris feugiat nisi commodo, semper lacus eu, volutpat mi. Donec
-                        nunc sem, fringilla nec mattis sit amet, feugiat vitae neque. Maecenas vitae consectetur erat, quis
-                        bibendum mi. Phasellus ac dolor augue. Pellentesque ultricies tincidunt libero at congue.</p>
-                </div>
-            </div>
-
-            <div class="d-slider__slide fade">
-                <img src="assets/work-img.png" />
                 <div class="d-slider__slide--text">
                     <h2 class="d-slider__slide--h2">
                         <span>Project Name</span>
@@ -701,6 +726,8 @@
     <script src="scripts/stickynav.js "></script>
     <!-- Slider -->
     <script src="scripts/slider.js "></script>
+    <!-- Animate -->
+    <script src="scripts/animate.js "></script>
 
 </body>
 

@@ -115,6 +115,9 @@ h3 {
   text-decoration: none;
   color: #fff200 !important;
 }
+.m-menu--hide {
+  display: none;
+}
 
 /* =============================Header=========================== */
 
@@ -204,6 +207,65 @@ h3 {
 
 .d-header__hero--img {
   max-width: 78%;
+}
+
+/* =============================Tooltip=========================== */
+
+.d-header__numbers--1 .d-header__tooltip--text1,
+.d-header__numbers--2 .d-header__tooltip--text2,
+.d-header__numbers--3 .d-header__tooltip--text3,
+.d-header__numbers--4 .d-header__tooltip--text4,
+.d-header__numbers--5 .d-header__tooltip--text5 {
+  visibility: hidden;
+  text-align: center;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.d-header__numbers--1:hover .d-header__tooltip--text1,
+.d-header__numbers--2:hover .d-header__tooltip--text2,
+.d-header__numbers--3:hover .d-header__tooltip--text3,
+.d-header__numbers--4:hover .d-header__tooltip--text4,
+.d-header__numbers--5:hover .d-header__tooltip--text5 {
+  visibility: visible;
+}
+span.d-header__tooltip--text1,
+span.d-header__tooltip--text2,
+span.d-header__tooltip--text3,
+span.d-header__tooltip--text4,
+span.d-header__tooltip--text5 {
+  position: absolute;
+  line-height: 20px;
+  padding: 10px;
+  font-size: 12px;
+  width: 250px;
+  text-align: center;
+  color: #696969;
+  top: 80px;
+  background: rgb(255, 255, 255);
+  border: 4px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  text-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
+}
+
+span.d-header__tooltip--text1::after,
+span.d-header__tooltip--text2::after,
+span.d-header__tooltip--text3::after,
+span.d-header__tooltip--text4::after,
+span.d-header__tooltip--text5::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent transparent #fff transparent;
+  top: -23px;
+  left: 5px;
 }
 
 /* =============================Search=========================== */

@@ -1,0 +1,13 @@
+{
+  "name": "Wepala",
+  "short_name": "Site",
+  "description": "Plan, Design, Build, Test, Launch",
+  "start_url": "",
+  "background_color": "#fff",
+  "theme_color": "#2ab7fc",
+  "icons": [{
+    "src": "logo.png",
+    "sizes": "256x256",
+    "type": "image/png"
+  }]
+}
