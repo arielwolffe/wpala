@@ -132,6 +132,12 @@
   .d-header__numbers--text {
     position: relative;
   }
+
+  .m-header__text--p {
+    color: #fff;
+    margin: 20px 0;
+  }
+
   .m-hero__svg--img {
     max-width: 100%;
     min-width: 100%;
@@ -147,8 +153,6 @@
   }
   .img--4 {
     margin-top: 70px;
-  }
-  .img--5 {
   }
 
   .m-hero__background--green {
@@ -310,6 +314,39 @@
   .m-footer__svg--img {
     max-width: 100%;
   }
+
+  .m-about__hero--img {
+    width: 100%;
+  }
+  .d-team__member {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .d-about {
+    margin-top: 30px;
+  }
+
+  .m-header__about {
+    background-color: #2ab7fc !important;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding: 100px 40px 0 40px;
+    width: 100%;
+  }
+
+  .d-about__text {
+    max-width: 100%;
+  }
+
+  .d-about__section {
+    min-width: 100%;
+  }
+
+  .d-about__sections {
+    margin: 0 30px;
+  }
 }
 
 @media only screen and (min-width: 569px) and (max-width: 769px) {
@@ -331,5 +368,9 @@
 
   .m-hero__background--yellow {
     height: 50vh;
+  }
+
+  .m-about__hero {
+    position: relative;
   }
 }

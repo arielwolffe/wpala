@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Wepala</title>
+
+    <!--Manifest-->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Core Stylesheet -->
+    <link href="layouts/style.css" rel="stylesheet">
+
+    <!-- Mobile Stylesheet -->
+    <link href="layouts/mobile.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <!--JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+
+<body>
+    <!-- Top Navigation -->
+    <div class="d-top-nav" id="top-navigation">
+        <div class="d-top-nav--flex">
+            <!-- Main Logo -->
+            <div class="d-logo">
+                <a href="index.html" class="d-logo__link">
+                    <img src="assets/Logo.png" alt="Wepala" />
+                </a>
+            </div>
+            <!--Mobile Logo -->
+            <div class="m-logo">
+                <a href="#" class="m-logo__link">
+                    <img src="assets/logo-white.png" alt="Wepala" />
+
+                </a>
+            </div>
+            <nav class="d-menu" id="d-navmenu">
+                <a href="javascript:void(0);" onclick="toggleMenu()" class="m-menu__icon">
+                    <i class="fas fa-bars 3x"></i>
+                </a>
+                <a href="index.html" class="d-menu__item">HOME</a>
+                <a href="about.html" class="d-menu__item--active" id="d-navactive">WHO WE ARE</a>
+                <a href="#" class="d-menu__item">WHAT WE DO</a>
+                <a href="#" class="d-menu__item">CONTACT US</a>
+
+                <!--Mobile Menu -->
+                <div class="m-menu--hide" id="m-navmenu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);" onclick="toggleMenu()" class="m-menu__close"> X</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="m-menu__item">HOME</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="m-menu__item--active" id="m-navactive">WHO WE ARE</a>
+                        </li>
+                        <li>
+                            <a href="#" class="m-menu__item">WHAT WE DO</a>
+                        </li>
+                        <li>
+                            <a href="#" class="m-menu__item">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+    <!-- Desktop Header -->
+    <div class="d-header" id="headerContainer">
+        <div class="d-header__background--left">
+            <div class="d-header__svg-left">
+                <svg xmlns="http://www.w3.org/2000/svg" width="70%" height="70%" viewBox="0 0 222.031 801.938">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: #2ab7fc;
+                                fill-rule: evenodd;
+                            }
+                        </style>
+                    </defs>
+                    <path id="Фигура_1_копия" data-name="Фигура 1 копия" class="cls-1" d="M-379.368,801.939s-124.845-167,78.009-316.949C-66.13,311.113,196.729,329.706,219.9,141.507,254.43-138.972-140.31-155.52-86.146-468.679s-22.91-420.134-269.319-475.628S-1202.03-318.544-1202.03-318.544-503.917,799.42-379.368,801.939Z"
+                    />
+                </svg>
+            </div>
+        </div>
+        <div class="d-header__text">
+            <h1 class="d-header__text--h1">
+                Lorem ipsum dolor sit amet, consectetur.
+            </h1>
+            <p class="d-header__text--p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, vestibulum imperdiet sed.
+            </p>
+        </div>
+        <div class="d-about__hero">
+            <img src="assets/Earth.png" alt="Plan, design, build, test, launch" class="d-about__hero--img" />
+
+        </div>
+        <div class="d-header__background--right">
+            <div class="d-header__svg--right">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="75%" viewBox="0 0 1278.719 1200.66" class="d-about__SVG--right">
+                    <defs>
+                        <style>
+                            .cls-1 {
+                                fill: #2ab7fc;
+                                fill-rule: evenodd;
+                            }
+                        </style>
+                    </defs>
+                    <path id="Фигура_7" data-name="Фигура 7" class="cls-1" d="M581.732-160.117S737-59.968,767,233c51.633,504.228,626.35,600.833,1156.23,169.931,459.79-373.91-220.57-961.09-220.57-961.09L629.075-331.98Z"
+                        transform="translate(-581.719)" />
+                </svg>
+
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="d-about">
+            <div class="d-about__text">
+                <h1 class="d-search__text--h1">
+                    We Culture
+                </h1>
+            </div>
+            <div class="d-about__sections">
+                <div class="d-about__section">
+                    <img src="assets/build-culture.png" alt="build" class="d-about__section--img" />
+
+                    <h3 class="d-about__section--h3">
+                        Build
+                    </h3>
+                    <p class="d-about__section--text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eu elementum nisl convallis. Phasellus finibus augue nec
+                        pretium mollis. Sed vehicula imperdiet sem.
+                    </p>
+                </div>
+                <div class="d-about__section">
+                    <img src="assets/innovate-culture.png" alt="innovate" class="d-about__section--img" />
+                    <h3 class="d-about__section--h3">
+                        Innovate
+                    </h3>
+                    <p class="d-about__section--text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eu elementum nisl convallis. Phasellus finibus augue nec
+                        pretium mollis. Sed vehicula imperdiet sem.
+                    </p>
+
+                </div>
+                <div class="d-about__section">
+                    <img src="assets/nurture-culture.png" alt="nurture" class="d-about__section--img" />
+                    <h3 class="d-about__section--h3">
+                        Nurture
+                    </h3>
+                    <p class="d-about__section--text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eu elementum nisl convallis. Phasellus finibus augue nec
+                        pretium mollis. Sed vehicula imperdiet sem.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Mobile Header -->
+    <div class="m-header">
+        <div class="m-header__about">
+            <div class="m-header__text">
+                <h1 class="m-header__text--h1">
+                    Lorem ipsum dolor sit amet, consectetur.
+                </h1>
+                <p class="m-header__text--p">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, vestibulum imperdiet sed.
+                </p>
+                <div class="m-about__hero">
+                    <img src="assets/Earth.png" alt="Plan, design, build, test, launch" class="m-about__hero--img" />
+
+                </div>
+            </div>
+        </div>
+        <!-- About -->
+        <div class="d-about">
+            <div class="d-about__text">
+                <h1 class="d-search__text--h1">
+                    We Culture
+                </h1>
+            </div>
+            <div class="d-about__sections">
+                <div class="d-about__section">
+                    <img src="assets/build-culture.png" alt="build" class="d-about__section--img" />
+
+                    <h3 class="d-about__section--h3">
+                        Build
+                    </h3>
+                    <p class="d-about__section--text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eu elementum nisl convallis. Phasellus finibus augue nec
+                        pretium mollis. Sed vehicula imperdiet sem.
+                    </p>
+                </div>
+                <div class="d-about__section">
+                    <img src="assets/innovate-culture.png" alt="innovate" class="d-about__section--img" />
+                    <h3 class="d-about__section--h3">
+                        Innovate
+                    </h3>
+                    <p class="d-about__section--text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eu elementum nisl convallis. Phasellus finibus augue nec
+                        pretium mollis. Sed vehicula imperdiet sem.
+                    </p>
+
+                </div>
+                <div class="d-about__section">
+                    <img src="assets/nurture-culture.png" alt="nurture" class="d-about__section--img" />
+                    <h3 class="d-about__section--h3">
+                        Nurture
+                    </h3>
+                    <p class="d-about__section--text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eu elementum nisl convallis. Phasellus finibus augue nec
+                        pretium mollis. Sed vehicula imperdiet sem.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- We Team-->
+    <div class="d-team">
+        <div class="d-team__text--h1">
+            <h1>
+                We Team
+            </h1>
+            <p>
+                our team Members
+            </p>
+
+        </div>
+        <div class="d-team__members">
+            <div class="d-team__member">
+                <img src="assets/person.png" alt="build" class="d-team__member--img" />
+
+                <h2 class="d-team__member--h2">
+                    Tom Jones
+                </h2>
+                <h3 class="d-team__member--h3">
+                    Job Title
+                </h3>
+                <p class="d-team__member--text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eu elementum nisl convallis. Phasellus finibus augue nec
+                    pretium mollis. Sed vehicula imperdiet sem.
+                </p>
+            </div>
+            <div class="d-team__member">
+                <img src="assets/person.png" alt="build" class="d-team__member--img" />
+
+                <h2 class="d-team__member--h2">
+                    Tom Jones
+                </h2>
+                <h3 class="d-team__member--h3">
+                    Job Title
+                </h3>
+                <p class="d-team__member--text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eu elementum nisl convallis. Phasellus finibus augue nec
+                    pretium mollis. Sed vehicula imperdiet sem.
+                </p>
+            </div>
+            <div class="d-team__member">
+                <img src="assets/person.png" alt="build" class="d-team__member--img" />
+
+                <h2 class="d-team__member--h2">
+                    Tom Jones
+                </h2>
+                <h3 class="d-team__member--h3">
+                    Job Title
+                </h3>
+                <p class="d-team__member--text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eu elementum nisl convallis. Phasellus finibus augue nec
+                    pretium mollis. Sed vehicula imperdiet sem.
+                </p>
+            </div>
+            <div class="d-team__member">
+                <img src="assets/person.png" alt="build" class="d-team__member--img" />
+
+                <h2 class="d-team__member--h2">
+                    Tom Jones
+                </h2>
+                <h3 class="d-team__member--h3">
+                    Job Title
+                </h3>
+                <p class="d-team__member--text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eu elementum nisl convallis. Phasellus finibus augue nec
+                    pretium mollis. Sed vehicula imperdiet sem.
+                </p>
+            </div>
+            <div class="d-team__member">
+                <img src="assets/person.png" alt="build" class="d-team__member--img" />
+
+                <h2 class="d-team__member--h2">
+                    Tom Jones
+                </h2>
+                <h3 class="d-team__member--h3">
+                    Job Title
+                </h3>
+                <p class="d-team__member--text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eu elementum nisl convallis. Phasellus finibus augue nec
+                    pretium mollis. Sed vehicula imperdiet sem.
+                </p>
+            </div>
+            <div class="d-team__member">
+                <img src="assets/person.png" alt="build" class="d-team__member--img" />
+
+                <h2 class="d-team__member--h2">
+                    Tom Jones
+                </h2>
+                <h3 class="d-team__member--h3">
+                    Job Title
+                </h3>
+                <p class="d-team__member--text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eu elementum nisl convallis. Phasellus finibus augue nec
+                    pretium mollis. Sed vehicula imperdiet sem.
+                </p>
+            </div>
+            <div class="d-team__member">
+                <img src="assets/person.png" alt="build" class="d-team__member--img" />
+
+                <h2 class="d-team__member--h2">
+                    Tom Jones
+                </h2>
+                <h3 class="d-team__member--h3">
+                    Job Title
+                </h3>
+                <p class="d-team__member--text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eu elementum nisl convallis. Phasellus finibus augue nec
+                    pretium mollis. Sed vehicula imperdiet sem.
+                </p>
+            </div>
+            <div class="d-team__member">
+                <img src="assets/join.png" alt="join" class="d-team__member--img join--img" />
+                <h2 class="d-team__member--join">
+                    Join the team!
+                </h2>
+                <input type="submit" value="JOIN" class="d-join__btn">
+            </div>
+        </div>
+    </div>
+
+    <!-- Core Footer -->
+    <div class="d-footer">
+        <div class="d-footer__background">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1425 555">
+                <style>
+                    .cls-1 {
+                        fill: #2ab7fc;
+                        fill-rule: evenodd;
+                    }
+                </style>
+                </defs>
+                <path id="Фигура_6" data-name="Фигура 6" class="cls-1" d="M-45,2688s45.523,99.68,304,100c256,0.32,448.143-126.77,731-15s546.29,151.1,810,78,105,409,105,409l-32,135H-43Z"
+                    transform="translate(0 -2688)" />
+            </svg>
+
+
+        </div>
+        <div class="d-footer__content">
+            <div class="d-footer__content--textarea">
+                <div class="d-footer__text">
+                    <h1 class="d-footer__text--h1">
+                        Follow Us
+                    </h1>
+                    <h3 class="d-footer__text--h3">
+                        Lorem Ipsum
+                    </h3>
+                    <p class="d-footer__text--p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula imperdiet sem vel tincidunt. Nunc nec dictum leo. Mauris
+                        feugiat nisi commodo, semper lacus eu, volutpat mi.
+                    </p>
+                    <h3 class="d-footer__text--h3">
+                        Lorem Ipsum
+                    </h3>
+                    <p class="d-footer__text--p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula imperdiet sem vel tincidunt. Nunc nec dictum leo. Mauris
+                        feugiat nisi commodo, semper lacus eu, volutpat mi.
+                    </p>
+                    <h3 class="d-footer__text--h3">
+                        Lorem Ipsum
+                    </h3>
+                    <p class="d-footer__text--p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula imperdiet sem vel tincidunt. Nunc nec dictum leo. Mauris
+                        feugiat nisi commodo, semper lacus eu, volutpat mi.
+                    </p>
+                </div>
+                <div class="d-footer__social">
+                    <div class="d-footer__social--icon">
+                        <a href="https://www.facebook.com/wepala">
+                            <img src="assets/facebook.png" class="d-footer__fa">
+                        </a>
+                        <a href="#">
+                            <img src="assets/linkedin.png" class="d-footer__fa">
+                        </a>
+                        <a href="https://github.com/wepala">
+                            <img src="assets/github.png" class="d-footer__fa">
+                        </a>
+                    </div>
+                    <h3 class="d-footer__social--contact d-footer__text--h3 ">
+                        New York
+                    </h3>
+                    <h3 class="d-footer__social--contact d-footer__text--h3 ">
+                        Trinidad and Tobago
+                    </h3>
+                    <p class="d-footer__social--contact d-footer__social--email">
+                        <a href="mailto:innovate@wepala.com">innovate@wepala.com</a>
+                    </p>
+
+                </div>
+                <div class="d-footer__contact">
+                    <p class="d-footer__contact--number">
+                        <a href="tel:+16464501632">
+                            <span>+1 646</span> 450 1632</a>
+                    </p>
+                    <p class="d-footer__contact--number">
+                        <a href="tel:+18683986186">
+                            <span>+1 868</span> 398 6186</a>
+                    </p>
+                </div>
+                <div class="d-footer__svg">
+                    <img src="assets/Characters.png" class="d-footer__svg--img" />
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Mobile Footer -->
+    <div class="m-footer">
+        <div class="m-footer__content">
+            <div class="m-footer__content--textarea">
+                <div class="m-footer__text">
+                    <h1 class="m-footer__text--h1">
+                        Follow Us
+                    </h1>
+                </div>
+                <div class="m-footer__social">
+                    <div class="m-footer__social--icon">
+                        <a href="https://www.facebook.com/wepala">
+                            <img src="assets/facebook.png" class="m-footer__fa">
+                        </a>
+                        <a href="#">
+                            <img src="assets/linkedin.png" class="m-footer__fa">
+                        </a>
+                        <a href="https://github.com/wepala">
+                            <img src="assets/github.png" class="m-footer__fa">
+                        </a>
+                    </div>
+                    <h3 class="m-footer__contact--h3">
+                        New York
+                    </h3>
+                    <p class="m-footer__contact--number">
+                        <a href="tel:+16464501632">
+                            <span>+1 646</span> 450 1632</a>
+                    </p>
+                    <h3 class="m-footer__contact--h3">
+                        Trinidad and Tobago
+                    </h3>
+                    <p class="m-footer__contact--number">
+                        <a href="tel:+18683986186">
+                            <span>+1 868</span> 398 6186</a>
+                    </p>
+                    <p class="m-footer__contact--email">
+                        <a href="mailto:innovate@wepala.com">innovate@wepala.com</a>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="m-footer__svg">
+            <img src="assets/Characters.png" class="m-footer__svg--img " />
+        </div>
+    </div>
+
+    <!-- Sticky Nav -->
+    <script src="scripts/stickynav.js "></script>
+
+</body>
+
+</html>
