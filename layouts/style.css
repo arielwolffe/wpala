@@ -54,6 +54,9 @@ a {
 
 /* =============================Top Nav=========================== */
 
+.d-logo__img {
+  width: 120px;
+}
 .d-top-nav {
   position: fixed;
   top: 0;
@@ -543,6 +546,10 @@ span.d-header__tooltip--text5::after {
 .d-footer__fa {
   margin-right: 5px;
   max-width: 8%;
+}
+
+.d-footer__fa:hover {
+  color: #fff200;
 }
 
 .d-footer__social--contact,
