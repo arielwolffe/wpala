@@ -175,6 +175,9 @@ a {
 .d-header__numbers {
   position: absolute;
   cursor: pointer;
+  backface-visibility: hidden;
+  transform-style: flat;
+  transform-style: preserve-3d;
 }
 
 .number__svg:hover > #cls-circle {
@@ -549,7 +552,7 @@ span.d-header__tooltip--text5::after {
 }
 
 .d-footer__fa:hover {
-  color: #fff200;
+  min-width: 10%;
 }
 
 .d-footer__social--contact,
