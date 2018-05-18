@@ -956,8 +956,14 @@ span.d-header__tooltip--text5::after {
 }
 
 .d-project {
-  width: 285px;
-  height: 285px;
+  width: 285px !important;
+  height: 305px !important;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+
+.d-project:hover {
+  box-shadow: 0 5px 15px rgba(105, 199, 198, 0.56);
 }
 
 .d-project__h3 {
@@ -965,36 +971,18 @@ span.d-header__tooltip--text5::after {
   color: #69c7c6;
 }
 
-.work-1 {
-  background: url("../assets/work1.png") no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding: 80px 0;
-}
 .d-project__logo {
-  margin: 30px 0;
+  padding: 20px;
+  max-width: 100%;
 }
 
 .work-2 {
   background-color: #fff;
   border-radius: 15px;
-  padding: 20px;
+  padding: 40px 20px;
   box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
-  max-width: 390px;
-}
-
-.work-3 {
-  background: url("../assets/football.png") no-repeat;
-  background-size: contain;
-  text-align: center;
-  padding: 80px 0;
-}
-
-.work-4 {
-  background: url("../assets/work1.png") no-repeat;
-  background-size: contain;
-  text-align: center;
-  padding: 80px 0;
+  max-width: 400px;
+  margin-left: 20px;
 }
 
 .m-clients {
