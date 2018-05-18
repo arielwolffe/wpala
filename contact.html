@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Title -->
+    <title>Wepala</title>
+
+    <!--Manifest-->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Core Stylesheet -->
+    <link href="layouts/style.css" rel="stylesheet">
+
+    <!-- Mobile Stylesheet -->
+    <link href="layouts/mobile.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <!--JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+</head>
+
+<body class="blue">
+    <!-- Top Navigation -->
+    <div class="d-top-nav" id="top-navigation">
+        <div class="d-top-nav--flex">
+            <!-- Main Logo -->
+            <div class="d-logo">
+                <a href="index.html" class="d-logo__link">
+                    <img src="assets/logo.png" alt="Wepala" class="d-logo__img" />
+                </a>
+            </div>
+            <!--Mobile Logo -->
+            <div class="m-logo">
+                <a href="#" class="m-logo__link">
+                    <img src="assets/logo-white.png" alt="Wepala" />
+
+                </a>
+            </div>
+            <nav class="d-menu" id="d-navmenu">
+                <a href="javascript:void(0);" onclick="toggleMenu()" class="m-menu__icon">
+                    <i class="fas fa-bars 3x"></i>
+                </a>
+                <a href="index.html" class="d-menu__item">HOME</a>
+                <a href="about.html" class="d-menu__item">WHO WE ARE</a>
+                <a href="work.html" class="d-menu__item">WHAT WE DO</a>
+                <a href="contact.html" class="d-menu__item--active" id="d-navactive">CONTACT US</a>
+
+                <!--Mobile Menu -->
+                <div class="m-menu--hide" id="m-navmenu">
+                    <ul>
+                        <li>
+                            <a href="javascript:void(0);" onclick="toggleMenu()" class="m-menu__close"> X</a>
+                        </li>
+                        <li>
+                            <a href="index.html" class="m-menu__item">HOME</a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="m-menu__item">WHO WE ARE</a>
+                        </li>
+                        <li>
+                            <a href="work.html" class="m-menu__item">WHAT WE DO</a>
+                        </li>
+                        <li>
+                            <a href="contact.html" class="m-menu__item--active" id="m-navactive">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+        </div>
+    </div>
+
+    <!-- Desktop Container -->
+    <div class="d-contact__container">
+        <div class="d-contact__chatbox">
+            <h2 class="d-contact__h2">
+                Contact Us
+            </h2>
+            <img src="assets/chatbox.png" alt="Chat with us" class="d-chatbox__img" />
+        </div>
+    </div>
+
+    <!-- Mobile Container -->
+    <div class="m-contact__container">
+        <div class="m-contact__chatbox">
+            <h2 class="m-contact__h2">
+                Contact Us
+            </h2>
+            <img src="assets/chatbox-mobile.png" alt="Chat with us" class="m-chatbox__img" />
+        </div>
+    </div>
+
+    <!-- Core Footer -->
+    <div class="d-footer contact-footer">
+        <div class="d-footer__background">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1425 555">
+                <style>
+                    .cls-1 {
+                        fill: #2ab7fc;
+                        fill-rule: evenodd;
+                    }
+                </style>
+                <path id="Фигура_6" data-name="Фигура 6" class="cls-1" d="M-45,2688s45.523,99.68,304,100c256,0.32,448.143-126.77,731-15s546.29,151.1,810,78,105,409,105,409l-32,135H-43Z"
+                    transform="translate(0 -2688)" />
+            </svg>
+
+
+        </div>
+        <div class="d-footer__content">
+            <div class="d-footer__content--textarea">
+                <div class="d-footer__text">
+                    <h1 class="d-footer__text--h1">
+                        Follow Us
+                    </h1>
+                    <h3 class="d-footer__text--h3">
+                        Lorem Ipsum
+                    </h3>
+                    <p class="d-footer__text--p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula imperdiet sem vel tincidunt. Nunc nec dictum leo. Mauris
+                        feugiat nisi commodo, semper lacus eu, volutpat mi.
+                    </p>
+                    <h3 class="d-footer__text--h3">
+                        Lorem Ipsum
+                    </h3>
+                    <p class="d-footer__text--p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula imperdiet sem vel tincidunt. Nunc nec dictum leo. Mauris
+                        feugiat nisi commodo, semper lacus eu, volutpat mi.
+                    </p>
+                    <h3 class="d-footer__text--h3">
+                        Lorem Ipsum
+                    </h3>
+                    <p class="d-footer__text--p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula imperdiet sem vel tincidunt. Nunc nec dictum leo. Mauris
+                        feugiat nisi commodo, semper lacus eu, volutpat mi.
+                    </p>
+                </div>
+                <div class="d-footer__social">
+                    <div class="d-footer__social--icon">
+                        <a href="https://www.facebook.com/wepala">
+                            <img src="assets/facebook.png" class="d-footer__fa">
+                        </a>
+                        <a href="#">
+                            <img src="assets/linkedin.png" class="d-footer__fa">
+                        </a>
+                        <a href="https://github.com/wepala">
+                            <img src="assets/github.png" class="d-footer__fa">
+                        </a>
+                    </div>
+                    <h3 class="d-footer__social--contact d-footer__text--h3 ">
+                        New York
+                    </h3>
+                    <h3 class="d-footer__social--contact d-footer__text--h3 ">
+                        Trinidad and Tobago
+                    </h3>
+                    <p class="d-footer__social--contact d-footer__social--email">
+                        <a href="mailto:innovate@wepala.com">innovate@wepala.com</a>
+                    </p>
+
+                </div>
+                <div class="d-footer__contact">
+                    <p class="d-footer__contact--number">
+                        <a href="tel:+16464501632">
+                            <span>+1 646</span> 450 1632</a>
+                    </p>
+                    <p class="d-footer__contact--number">
+                        <a href="tel:+18683986186">
+                            <span>+1 868</span> 398 6186</a>
+                    </p>
+                </div>
+                <div class="d-footer__svg">
+                    <img src="assets/Characters.png" class="d-footer__svg--img" />
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Mobile Footer -->
+    <div class="m-footer">
+        <div class="m-footer__content">
+            <div class="m-footer__content--textarea">
+                <div class="m-footer__text">
+                    <h1 class="m-footer__text--h1">
+                        Follow Us
+                    </h1>
+                </div>
+                <div class="m-footer__social">
+                    <div class="m-footer__social--icon">
+                        <a href="https://www.facebook.com/wepala">
+                            <img src="assets/facebook.png" class="m-footer__fa">
+                        </a>
+                        <a href="#">
+                            <img src="assets/linkedin.png" class="m-footer__fa">
+                        </a>
+                        <a href="https://github.com/wepala">
+                            <img src="assets/github.png" class="m-footer__fa">
+                        </a>
+                    </div>
+                    <h3 class="m-footer__contact--h3">
+                        New York
+                    </h3>
+                    <p class="m-footer__contact--number">
+                        <a href="tel:+16464501632">
+                            <span>+1 646</span> 450 1632</a>
+                    </p>
+                    <h3 class="m-footer__contact--h3">
+                        Trinidad and Tobago
+                    </h3>
+                    <p class="m-footer__contact--number">
+                        <a href="tel:+18683986186">
+                            <span>+1 868</span> 398 6186</a>
+                    </p>
+                    <p class="m-footer__contact--email">
+                        <a href="mailto:innovate@wepala.com">innovate@wepala.com</a>
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="m-footer__svg">
+            <img src="assets/Characters.png" class="m-footer__svg--img " />
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Sticky Nav -->
+    <script src="scripts/stickynav.js "></script>
+
+</body>
+
+</html>
