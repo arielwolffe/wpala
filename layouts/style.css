@@ -81,7 +81,14 @@ a {
 
 .tiny-text {
   color: #bdbdbd;
+}
+
+.right {
   float: right;
+}
+
+.center {
+  text-align: center !important;
 }
 /* =============================Top Nav=========================== */
 
@@ -618,7 +625,7 @@ span.d-header__tooltip--text5::after {
 .d-footer__svg {
   position: absolute;
   bottom: 0;
-  left: 40%;
+  left: 43%;
 }
 
 .d-footer__svg--img {
@@ -657,7 +664,7 @@ span.d-header__tooltip--text5::after {
   padding: 10px 0 100px 0;
   flex-shrink: 0;
   flex-grow: 1;
-  margin-top: -400px;
+  margin-top: -300px;
 }
 
 .d-about__text {
@@ -921,6 +928,10 @@ span.d-header__tooltip--text5::after {
 
 .big-margin__tools {
   margin-top: 35px;
+}
+
+.m-portfolio {
+  display: none;
 }
 
 .d-portfolio {

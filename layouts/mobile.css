@@ -250,7 +250,7 @@
     margin-bottom: 15px;
   }
 
-  .d-work {
+  .d-display {
     display: none;
   }
 
@@ -367,13 +367,32 @@
     justify-content: center;
     align-items: center;
     padding: 10px 0 100px 0;
-    flex-shrink: 0;
-    flex-grow: 1;
     background: transparent;
   }
 
   .m-work__text {
-    max-width: 45%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .m-work__text--h1 {
+    color: #3f3f3f;
+  }
+
+  .m-work__sections {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 30px 10px;
+  }
+  .m-work__section {
+    max-width: 50%;
+    padding-left: 50px;
+    padding-top: 20px;
   }
 
   .m-work__btn {
@@ -395,6 +414,28 @@
     text-align: center;
   }
 
+  .m-tool__sections {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+  }
+
+  .m-tool__section {
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    width: 125px;
+    height: 125px;
+    vertical-align: middle;
+    text-align: center;
+  }
   .d-clients {
     display: none;
   }
@@ -402,11 +443,44 @@
   .m-clients {
     display: block;
     margin-top: 30px;
+    margin-bottom: 60px;
+  }
+
+  .d-portfolio {
+    display: none;
+  }
+
+  .m-portfolio {
+    margin-top: -200px;
+    display: block;
+    padding-top: 90px;
+    background-color: #fff;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   .m-portfolio__text--h1 {
     text-align: center;
     color: #3f3f3f;
+    padding-top: 80px;
+  }
+
+  .m-project {
+    width: 100%;
+  }
+
+  .work-2--mobile {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px 20px;
+    box-shadow: 0 5px 15px rgba(105, 199, 198, 0.56);
+    margin: 0 20px;
+    width: 90%;
   }
 
   .m-client {
@@ -422,6 +496,59 @@
     width: 90%;
     margin: 20px 20px;
     align-content: center;
+  }
+
+  .m-client__profile {
+    text-align: center;
+  }
+
+  .m-client__text {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .m-client__text > p {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .m-client__btn {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    padding: 15px 25px;
+    background-color: #f66269;
+    border: #f66269;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(246, 98, 105, 0.52);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "AvenirNextCyr-Light";
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+  }
+
+  .m-clients > h3 {
+    font-size: 30px;
+    margin: 30px 0;
+  }
+
+  .m-addclient__btn {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    padding: 15px 35px;
+    background-color: #2ab7fc;
+    border: #2ab7fc;
+    color: #fff;
+    box-shadow: 0 5px 25px rgba(42, 183, 252, 0.68);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "AvenirNextCyr-Light";
+    font-size: 15px;
+    text-align: center;
   }
 
   .d-contact__container {
