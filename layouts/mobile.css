@@ -97,6 +97,7 @@
     flex-flow: column;
     justify-content: center;
     padding: 100px 40px;
+    margin-top: 30px;
     width: 100%;
     height: 50vh;
   }
@@ -393,6 +394,10 @@
     max-width: 50%;
     padding-left: 50px;
     padding-top: 20px;
+  }
+
+  .m-work__section--h3 {
+    margin-right: 40px;
   }
 
   .m-work__btn {
