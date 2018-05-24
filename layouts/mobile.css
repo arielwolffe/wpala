@@ -324,8 +324,14 @@
   .m-about__hero--img {
     width: 100%;
   }
+
   .d-team__member {
     margin: 0;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .d-team__member--img {
     max-width: 100%;
   }
 
@@ -397,7 +403,7 @@
   }
 
   .m-work__section--h3 {
-    margin-right: 40px;
+    margin-right: 60px;
   }
 
   .m-work__btn {
@@ -600,5 +606,18 @@
 
   .m-about__hero {
     position: relative;
+  }
+
+  .d-team__member--img {
+    max-width: 100%;
+  }
+
+  .join--img {
+    width: 488px;
+    height: 488px;
+  }
+
+  .m-work__section--h3 {
+    margin-right: 70px;
   }
 }

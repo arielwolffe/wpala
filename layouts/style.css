@@ -286,6 +286,7 @@ a {
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
+  left: -55px;
 }
 
 /* Show the tooltip text when you mouse over the tooltip container */
@@ -330,7 +331,7 @@ span.d-header__tooltip--text5::after {
   border-style: solid;
   border-color: transparent transparent #fff transparent;
   top: -23px;
-  left: 40px;
+  left: 85px;
 }
 
 /* =============================Search=========================== */
@@ -693,7 +694,7 @@ span.d-header__tooltip--text5::after {
 }
 
 .d-about__section {
-  margin: 0 100px;
+  margin: 0 60px;
   text-align: center;
   max-width: 210px;
 }

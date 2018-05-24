@@ -1,7 +1,7 @@
 !(function($doc, $win) {
   var screenWidth = $win.screen.width / 2,
     screenHeight = $win.screen.height / 2,
-    $elems = $doc.getElementsByClassName("d-header__numbers"),
+    $elems = $doc.getElementsByClassName("number__svg"),
     validPropertyPrefix = "",
     otherProperty = "perspective(1000px)",
     elemStyle = $elems[0].style;
@@ -15,8 +15,8 @@
   $doc.addEventListener("mousemove", function(e) {
     var centroX = e.clientX - screenWidth,
       centroY = screenHeight - (e.clientY + 15),
-      degX = centroX * 0.06,
-      degY = centroY * 0.04,
+      degX = centroX * 0.07,
+      degY = centroY * 0.07,
       $elem;
 
     for (var i = 0; i < $elems.length; i++) {
