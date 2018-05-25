@@ -1074,29 +1074,11 @@ span.d-header__tooltip--text5::after {
   transition: 0.5s;
 }
 
-.d-addclient__btn {
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
-  padding: 12px 30px;
-  background-color: #2ab7fc;
-  border: #2ab7fc;
-  color: #fff;
-  box-shadow: 0 5px 25px rgba(42, 183, 252, 0.68);
-  cursor: pointer;
-  text-decoration: none;
+.addclient__btn {
   font-family: "AvenirNextCyr-Light";
   font-size: 12px;
   text-align: center;
   margin-top: 30px;
-}
-
-.d-addclient__btn:hover {
-  background-color: #f66269;
-  border: #f66269;
-  color: #fff;
-  box-shadow: 0 5px 15px rgba(246, 98, 105, 0.52);
-  transition: 0.5s;
 }
 
 /* =============================Contact=========================== */
