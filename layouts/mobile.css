@@ -622,7 +622,7 @@
   }
 }
 
-@media only screen and (min-width: 780px) and (max-width: 1370px) {
+@media only screen and (min-width: 780px) and (max-width: 1024px) {
   .d-logo {
     margin-left: 40px;
   }
@@ -674,7 +674,7 @@
   }
 
   .d-footer__svg--img {
-    max-width: 75%;
+    max-width: 60%;
   }
 
   .d-footer__svg {

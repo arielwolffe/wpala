@@ -554,6 +554,10 @@ span.d-header__tooltip--text5::after {
   margin: 0 50px;
 }
 
+.d-footer__text > a {
+  text-decoration: none;
+}
+
 .d-footer__text--h1,
 .d-footer__social--icon {
   margin-bottom: 30px;
@@ -782,6 +786,7 @@ span.d-header__tooltip--text5::after {
   color: #fff;
   box-shadow: 0 5px 15px rgba(246, 98, 105, 0.52);
   cursor: pointer;
+  outline: none;
 }
 
 .d-join__btn:hover {
