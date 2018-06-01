@@ -581,6 +581,21 @@
     width: 95%;
     margin-bottom: 0;
   }
+
+  .chat-container {
+    width: 90%;
+    height: 470px;
+  }
+
+  .message {
+    max-width: 100%;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+  }
+  .chat-message > textarea {
+    width: 60%;
+  }
 }
 
 @media only screen and (min-width: 569px) and (max-width: 769px) {
@@ -742,4 +757,7 @@
     width: 78%;
     margin-bottom: 59px;
   }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1340px) {
 }

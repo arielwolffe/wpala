@@ -1102,6 +1102,103 @@ span.d-header__tooltip--text5::after {
   margin-bottom: 0;
 }
 
+.chat-container {
+  width: 70%;
+  background: #fff;
+  border-radius: 5px;
+  font: 14px/20px;
+  padding: 40px 0;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.chat {
+  width: 100%;
+}
+
+.chat-history {
+  padding: 30px 30px 20px;
+  border-bottom: 2px solid white;
+  overflow-y: scroll;
+  height: 320px;
+  font-size: 14px;
+  font-family: "AvenirNextCyr-Light";
+}
+.chat-history > ul {
+  list-style-type: none;
+}
+.message-data {
+  margin-bottom: 15px;
+}
+
+.message-data-time {
+  color: gray;
+  padding-left: 6px;
+}
+
+.message {
+  color: #7e7e7e;
+  padding: 10px 20px;
+  line-height: 26px;
+  font-size: 16px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  max-width: 70%;
+  position: relative;
+  font-size: 14px;
+  font-family: "AvenirNextCyr-Light";
+}
+
+.my-message {
+  background: rgba(109, 207, 246, 0.51);
+}
+.my-message::after {
+  border-bottom-color: #f1f1f1;
+  left: 93%;
+}
+
+.other-message {
+  background: #f1f1f1;
+}
+.other-message:after {
+  border-bottom-color: #f1f1f1;
+  left: 93%;
+}
+
+.message-data-photo > img {
+  width: 40px;
+}
+
+.chat-message {
+  padding: 30px;
+  background: #fafafa;
+  margin-bottom: -40px;
+}
+
+.chat-message > textarea {
+  background: #fafafa;
+  width: 80%;
+  border: none;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  resize: none;
+  font-size: 14px;
+  font-family: "AvenirNextCyr-Light";
+}
+
+.message--btn__send {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.message--btn__send > img {
+  width: 70px;
+}
+
 .contact-footer {
   margin-top: -40px;
 }
