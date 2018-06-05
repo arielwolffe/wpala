@@ -248,19 +248,12 @@ button {
   max-width: 80%;
 }
 
-.d-numbers__container {
-  position: relative;
-}
-
 .d-header__numbers {
   position: absolute;
   cursor: pointer;
-  backface-visibility: hidden;
-  transform-style: flat;
-  transform-style: preserve-3d;
 }
 
-.number__svg:hover > #cls-circle {
+.number__svg:hover .cls-circle {
   fill: #fff200 !important;
 }
 .d-header__numbers--1 {
@@ -290,7 +283,6 @@ button {
 }
 
 /* =============================Tooltip=========================== */
-
 .d-header__numbers--1 .d-header__tooltip--text1,
 .d-header__numbers--2 .d-header__tooltip--text2,
 .d-header__numbers--3 .d-header__tooltip--text3,
@@ -332,6 +324,7 @@ span.d-header__tooltip--text5 {
   font-family: "AvenirNextCyr-Light";
   font-size: 10px;
   text-align: left;
+  z-index: 300;
 }
 
 span.d-header__tooltip--text1::after,
