@@ -637,7 +637,7 @@
   }
 }
 
-@media only screen and (min-width: 780px) and (max-width: 1024px) {
+/* @media only screen and (min-width: 780px) and (max-width: 1024px) {
   .d-logo {
     margin-left: 40px;
   }
@@ -675,7 +675,7 @@
   .d-header__numbers--5 {
     top: 14%;
     left: 65%;
-  } */
+  }
 
   .d-footer__content--textarea {
     margin: 0 3%;
@@ -757,4 +757,4 @@
     width: 78%;
     margin-bottom: 59px;
   }
-}
+} */
