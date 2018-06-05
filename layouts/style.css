@@ -210,6 +210,19 @@ a {
   max-height: 100%;
 }
 
+.d-header__hero {
+  position: absolute;
+  left: 23%;
+  top: 15%;
+}
+
+.d-header__hero--img {
+  max-width: 78%;
+}
+
+.d-numbers__container {
+  position: relative;
+}
 .d-header__numbers {
   position: absolute;
   cursor: pointer;
@@ -261,16 +274,6 @@ a {
   padding-top: 20px;
   font-size: 13px;
   color: #696969;
-}
-
-.d-header__hero {
-  position: absolute;
-  left: 23%;
-  top: 15%;
-}
-
-.d-header__hero--img {
-  max-width: 78%;
 }
 
 /* =============================Tooltip=========================== */
@@ -739,7 +742,7 @@ span.d-header__tooltip--text5::after {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: left;
-  align-items: left;
+  align-items: center;
   margin: 30px 100px;
 }
 
@@ -972,7 +975,7 @@ span.d-header__tooltip--text5::after {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: left;
-  align-items: left;
+  align-items: center;
   margin: 30px 235px;
 }
 
