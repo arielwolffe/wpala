@@ -741,7 +741,7 @@ span.d-header__tooltip--text5::after {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   margin: 30px 100px;
 }
@@ -974,7 +974,7 @@ span.d-header__tooltip--text5::after {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   margin: 30px 235px;
 }
