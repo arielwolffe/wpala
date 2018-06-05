@@ -681,6 +681,7 @@ span.d-header__tooltip--text5::after {
   position: absolute;
   left: 35%;
   top: 10%;
+  z-index: 5;
 }
 
 .d-about__hero--img {
@@ -844,6 +845,7 @@ span.d-header__tooltip--text5::after {
   position: absolute;
   left: 35%;
   top: 15%;
+  z-index: 5;
 }
 
 .d-work__hero--img {
