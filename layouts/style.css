@@ -554,7 +554,7 @@ span.d-header__tooltip--text5::after {
   color: #fff;
   display: -ms-flex;
   display: -webkit-flex;
-  display: row;
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 10%;
