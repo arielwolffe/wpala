@@ -231,7 +231,7 @@ button {
 }
 
 .d-header__background--right {
-  z-index: -23;
+  z-index: 1;
   max-width: 80%;
   min-width: 80%;
   flex: 5;
