@@ -50,10 +50,10 @@ h3 {
   color: #696969;
 }
 
-a {
+a,
+button {
   cursor: pointer !important;
 }
-
 .small-text {
   font-size: 13px;
 }
@@ -571,6 +571,10 @@ span.d-header__tooltip--text5::after {
 
 .d-footer__text > a {
   text-decoration: none;
+}
+
+.d-footer__social--icon {
+  height: 8%;
 }
 
 .d-footer__text--h1,
@@ -1230,12 +1234,24 @@ span.d-header__tooltip--text5::after {
 }
 
 .message--btn__send {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  padding: 15px;
+  background-color: #f66269;
+  border: #f66269;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(246, 98, 105, 0.52);
   outline: none;
-  border: none;
-  background: transparent;
+  font-size: medium;
 }
-.message--btn__send > img {
-  width: 70px;
+
+.message--btn__send:hover {
+  background-color: #2ab7fc;
+  border: #2ab7fc;
+  color: #fff;
+  box-shadow: 0 5px 25px rgba(42, 183, 252, 0.68);
+  transition: 0.5s;
 }
 
 .contact-footer {
