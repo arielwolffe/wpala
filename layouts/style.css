@@ -822,7 +822,7 @@ span.d-header__tooltip--text5::after {
   -moz-border-radius: 50px;
   border-radius: 50px;
   padding: 12px;
-  margin-top: 25px 20px;
+  margin: 25px 20px;
   background-color: #f66269;
   border: #f66269;
   color: #fff;
