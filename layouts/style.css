@@ -61,6 +61,11 @@ button {
 .medium-text {
   font-size: 15px;
 }
+@media only screen and (max-width: 1300px) {
+  .medium-text {
+    font-size: 13px;
+  }
+}
 
 .large-text {
   font-size: 20px;
@@ -781,7 +786,7 @@ span.d-header__tooltip--text5::after {
   display: inline-block;
   margin: 10px 0 0 2%;
   flex-grow: 1;
-  width: calc(100% * (1 / 4) - 10px - 1px);
+  flex-basis: 20%;
 }
 
 .d-team__member--img {
@@ -812,12 +817,12 @@ span.d-header__tooltip--text5::after {
 }
 
 .d-join__btn {
-  min-width: 175px;
+  width: 80%;
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   border-radius: 50px;
   padding: 12px;
-  margin: 25px 20px;
+  margin-top: 25px 20px;
   background-color: #f66269;
   border: #f66269;
   color: #fff;
@@ -1013,20 +1018,34 @@ span.d-header__tooltip--text5::after {
   align-items: center;
   margin: 30px 235px;
 }
+@media only screen and (max-width: 1250px) {
+  .d-projects {
+    margin: 30px 135px;
+  }
+}
 
+@media only screen and (max-width: 769px) {
+  .d-projects {
+    margin: 30px 35px;
+  }
+}
 .d-projects > div {
   flex: 0 50%;
 }
 
+@media only screen and (max-width: 1250px) {
+  .d-projects > div {
+    flex: 100%;
+  }
+}
+
 .d-project {
-  width: 285px !important;
-  height: 305px !important;
   margin-bottom: 5px;
   background-color: transparent;
 }
 
 .d-project:hover {
-  box-shadow: 0 5px 15px rgba(105, 199, 198, 0.56);
+  box-shadow: 0 5px 15px rgba(246, 98, 105, 0.52);
 }
 
 .d-project__h3 {
@@ -1035,17 +1054,20 @@ span.d-header__tooltip--text5::after {
 }
 
 .d-project__logo {
-  padding: 20px;
   max-width: 100%;
 }
 
 .work-2 {
   background-color: #fff;
   border-radius: 15px;
-  padding: 40px 20px;
-  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
-  max-width: 400px;
-  margin-left: 20px;
+  padding: 40px 30px;
+  box-shadow: 0 5px 15px rgba(105, 199, 198, 0.56);
+}
+
+@media only screen and (max-width: 1300px) {
+  .work-2 {
+    padding: 25px;
+  }
 }
 
 .m-clients {

@@ -326,9 +326,12 @@
   }
 
   .d-team__member {
+    display: inline-block;
+    flex-grow: 1;
     margin: 0;
     max-width: 100%;
     text-align: center;
+    flex-basis: 100%;
   }
 
   .d-team__member--img {
@@ -483,6 +486,11 @@
 
   .m-project {
     width: 100%;
+    text-align: center;
+  }
+  .m-project__h3 {
+    padding-bottom: 10px;
+    color: #69c7c6;
   }
 
   .work-2--mobile {
@@ -490,8 +498,9 @@
     border-radius: 15px;
     padding: 40px 20px;
     box-shadow: 0 5px 15px rgba(105, 199, 198, 0.56);
-    margin: 0 20px;
+    margin: 10px 20px;
     width: 90%;
+    text-align: left !important;
   }
 
   .m-client {
