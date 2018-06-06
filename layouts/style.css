@@ -199,7 +199,7 @@ button {
 }
 
 .d-header__background--left {
-  z-index: -20;
+  z-index: 20;
   height: 0;
   padding-bottom: 50%;
   max-width: 20%;
@@ -250,7 +250,7 @@ button {
 }
 
 .d-header__hero--img {
-  max-width: 80%;
+  width: 80%;
 }
 
 .d-header__numbers {
@@ -610,10 +610,6 @@ span.d-header__tooltip--text5::after {
   max-width: 8%;
 }
 
-.d-footer__fa:hover {
-  min-width: 10%;
-}
-
 .d-footer__social--contact,
 .d-footer__contact--number {
   margin-bottom: 15px;
@@ -774,11 +770,11 @@ span.d-header__tooltip--text5::after {
   display: -ms-flex;
   display: -webkit-flex;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   margin: 30px 100px;
+  flex-basis: 20%;
 }
 
 .d-team__member {
@@ -786,7 +782,6 @@ span.d-header__tooltip--text5::after {
   display: inline-block;
   margin: 10px 0 0 2%;
   flex-grow: 1;
-  flex-basis: 20%;
 }
 
 .d-team__member--img {
@@ -893,6 +888,7 @@ span.d-header__tooltip--text5::after {
   position: absolute;
   text-align: center;
   left: 0;
+  z-index: 10 !important;
 }
 
 .d-work__btn:hover {
@@ -1170,7 +1166,7 @@ span.d-header__tooltip--text5::after {
   padding: 40px 0;
   color: #000;
   margin-top: 20px;
-  margin-bottom: 0;
+  margin-bottom: 30px;
 }
 
 .chat {
@@ -1278,24 +1274,3 @@ span.d-header__tooltip--text5::after {
 .m-contact__container {
   display: none;
 }
-
-/* @media only screen and (min-width: 1025px) and (max-width: 1240px) {
-  .d-footer__text,
-  .d-footer__social,
-  .d-footer__contact {
-    margin: 0 30px;
-    font-size: 12px;
-  }
-
-  .d-footer__svg--img {
-    max-width: 80%;
-  }
-
-  .d-footer__svg {
-    left: 45%;
-  }
-
-  .d-footer__contact {
-    margin-top: 50px;
-  }
-} */
