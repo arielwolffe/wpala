@@ -771,17 +771,16 @@ span.d-header__tooltip--text5::after {
   display: -webkit-flex;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  margin: 30px 100px;
+  justify-content: space-around;
+  margin: 30px 150px;
   flex-basis: 20%;
 }
 
 .d-team__member {
-  max-width: 215px;
   display: inline-block;
-  margin: 10px 0 0 2%;
-  flex-grow: 1;
+  flex: initial;
+  flex-basis: 20%;
+  margin: 0 10px;
 }
 
 .d-team__member--img {
