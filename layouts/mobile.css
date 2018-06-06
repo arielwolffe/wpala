@@ -333,6 +333,9 @@
     text-align: center;
     flex-basis: 100%;
   }
+  .d-team__members {
+    margin: 30px 10px;
+  }
 
   .d-team__member--img {
     max-width: 100%;
@@ -493,14 +496,19 @@
     color: #69c7c6;
   }
 
+  .m-project__logo {
+    max-width: 90%;
+    margin: 10px 20px;
+  }
+
   .work-2--mobile {
     background-color: #fff;
     border-radius: 15px;
     padding: 40px 20px;
     box-shadow: 0 5px 15px rgba(105, 199, 198, 0.56);
-    margin: 10px 20px;
     width: 90%;
     text-align: left !important;
+    margin: 10px 20px;
   }
 
   .m-client {
@@ -632,138 +640,12 @@
     position: relative;
   }
 
-  .d-team__member--img {
-    max-width: 100%;
-  }
-
+  .d-team__member--img,
   .join--img {
-    width: 488px;
-    height: 488px;
+    max-width: 100%;
   }
 
   .m-work__section--h3 {
     margin-right: 70px;
   }
 }
-
-/* @media only screen and (min-width: 780px) and (max-width: 1024px) {
-  .d-logo {
-    margin-left: 40px;
-  }
-
-  .d-header__text {
-    top: 9%;
-    left: 14%;
-  }
-
-  /* .d-header__hero {
-    left: 21%;
-    top: 10%;
-  }
-
-  .d-header__numbers--1 {
-    top: 27%;
-    left: 17%;
-  }
-
-  .d-header__numbers--2 {
-    top: 42%;
-    left: 38%;
-  }
-
-  .d-header__numbers--3 {
-    top: 36%;
-    left: 68%;
-  }
-
-  .d-header__numbers--4 {
-    top: 24%;
-    left: 42%;
-  }
-
-  .d-header__numbers--5 {
-    top: 14%;
-    left: 65%;
-  }
-
-  .d-footer__content--textarea {
-    margin: 0 3%;
-  }
-
-  .d-footer__text,
-  .d-footer__social,
-  .d-footer__contact {
-    margin: 0 30px;
-    font-size: 12px;
-  }
-
-  .d-footer__svg--img {
-    max-width: 60%;
-  }
-
-  .d-footer__svg {
-    left: 40%;
-  }
-
-  .d-footer__fa {
-    margin-right: 12px;
-    max-width: 12%;
-  }
-
-  .d-footer__contact--number {
-    margin-left: -67px;
-  }
-
-  .d-footer__contact {
-    margin-top: 60px;
-  }
-
-  .d-about__hero--img {
-    max-width: 50%;
-  }
-
-  .d-about {
-    margin-top: -235px;
-  }
-
-  .d-team__member {
-    margin: 0px 15px;
-  }
-
-  .d-work__hero--img {
-    max-width: 70%;
-  }
-
-  .d-work__hero {
-    left: 36%;
-    top: 12%;
-  }
-  .d-project {
-    height: 234px !important;
-  }
-  .d-projects {
-    margin: 30px 140px;
-  }
-  .work-2 {
-    padding: 7px 20px;
-    max-width: 313px;
-    margin-left: 6px;
-  }
-  .medium-text {
-    font-size: 12px;
-  }
-
-  .d-project__logo {
-    padding: 5px;
-  }
-
-  .d-contact__container {
-    margin: 130px 0 0 173px;
-  }
-
-  .d-chatbox__img {
-    margin-top: 40px;
-    width: 78%;
-    margin-bottom: 59px;
-  }
-} */
