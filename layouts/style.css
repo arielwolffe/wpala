@@ -262,25 +262,25 @@ button {
   fill: #fff200 !important;
 }
 .d-header__numbers--1 {
-  top: 42%;
-  left: 3%;
+  top: 46%;
+  left: -5%;
 }
 
 .d-header__numbers--2 {
-  top: 67%;
-  left: 28%;
+  top: 78%;
+  left: 22%;
 }
 .d-header__numbers--3 {
-  top: 55%;
-  left: 65%;
+  top: 65%;
+  left: 62%;
 }
 .d-header__numbers--4 {
   top: 36%;
-  left: 33%;
+  left: 30%;
 }
 .d-header__numbers--5 {
-  top: 19%;
-  left: 62%;
+  top: 12%;
+  left: 58%;
 }
 
 .d-header__numbers--text {
