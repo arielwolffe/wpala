@@ -110,7 +110,7 @@ button {
   top: 0;
   left: 0;
   margin: auto;
-  width: 100%;
+  width: 100% !important;
   z-index: 500;
 }
 
@@ -198,6 +198,7 @@ button {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
+  width: 100% !important;
 }
 
 .m-header {
