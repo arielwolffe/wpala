@@ -667,6 +667,7 @@ span.d-header__tooltip--text5::after {
 .d-footer__svg--img {
   max-width: 90%;
   transition: all 0.2s ease-in-out;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 986px) {
