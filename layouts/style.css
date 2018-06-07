@@ -715,7 +715,7 @@ span.d-header__tooltip--text5::after {
   padding: 10px 0 100px 0;
   flex-shrink: 0;
   flex-grow: 1;
-  margin-top: -300px;
+  margin-top: -20%;
 }
 
 .d-about__text {
@@ -733,13 +733,12 @@ span.d-header__tooltip--text5::after {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin: 30px 0;
 }
 
 .d-about__section {
-  margin: 0 60px;
   text-align: center;
   max-width: 210px;
 }
@@ -805,8 +804,7 @@ span.d-header__tooltip--text5::after {
   font-size: 13px;
 }
 
-.d-team__member--join {
-  text-align: center;
+.join--text {
   color: #54c5fc;
 }
 
@@ -816,7 +814,7 @@ span.d-header__tooltip--text5::after {
   -moz-border-radius: 50px;
   border-radius: 50px;
   padding: 12px;
-  margin: 25px 20px;
+  margin: 3% 10%;
   background-color: #f66269;
   border: #f66269;
   color: #fff;
