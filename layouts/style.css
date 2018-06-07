@@ -29,6 +29,7 @@
 
 body {
   background-color: #fafafa;
+  overflow-x: hidden !important;
 }
 .blue {
   background-color: #2ab7fc !important;
