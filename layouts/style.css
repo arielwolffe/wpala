@@ -1042,6 +1042,8 @@ span.d-header__tooltip--text5::after {
   margin-bottom: 5px;
   height: 300px;
   width: 350px;
+  max-height: 800px;
+  max-width: 900px;
   background-size: fill !important;
   background-repeat: no-repeat;
   background-position: 50% 50%;
