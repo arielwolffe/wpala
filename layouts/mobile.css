@@ -556,6 +556,25 @@
     font-size: 15px;
     text-align: center;
     position: relative;
+    outline: none;
+  }
+
+  .m-client__btn:active {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    padding: 15px 25px;
+    background-color: #2ab7fc;
+    border: #2ab7fc;
+    color: #fff;
+    box-shadow: 0 5px 25px rgba(42, 183, 252, 0.68);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "AvenirNextCyr-Light";
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    outline: none;
   }
 
   .m-clients > h3 {
@@ -564,6 +583,23 @@
   }
 
   .m-addclient__btn {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    padding: 15px 35px;
+    background-color: #f66269;
+    border: #f66269;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(246, 98, 105, 0.52);
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "AvenirNextCyr-Light";
+    font-size: 15px;
+    text-align: center;
+    outline: none;
+  }
+
+  .m-addclient__btn:active {
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
@@ -577,6 +613,7 @@
     font-family: "AvenirNextCyr-Light";
     font-size: 15px;
     text-align: center;
+    outline: none;
   }
 
   .d-contact__container {
