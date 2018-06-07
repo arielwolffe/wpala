@@ -582,7 +582,8 @@ span.d-header__tooltip--text5::after {
 .d-footer__contact {
   flex: 1;
   width: 20%;
-  margin: 0 50px;
+  margin: 40px 50px;
+  padding: 40px 0px;
 }
 
 .d-footer__text > a {
@@ -662,7 +663,6 @@ span.d-header__tooltip--text5::after {
   position: absolute;
   bottom: 0;
   left: 43%;
-  margin-top: 20px;
 }
 
 .d-footer__svg--img {
