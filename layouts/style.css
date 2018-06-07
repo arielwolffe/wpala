@@ -554,7 +554,7 @@ span.d-header__tooltip--text5::after {
 /* =============================Footer=========================== */
 .d-footer {
   bottom: 0;
-  max-width: 100%;
+  max-width: 100% !important;
   position: relative;
   overflow: hidden;
 }
