@@ -582,6 +582,7 @@ span.d-header__tooltip--text5::after {
 .d-footer__contact {
   flex: 1;
   width: 20%;
+  padding: 0px 50px;
 }
 
 .d-footer__text > a {
