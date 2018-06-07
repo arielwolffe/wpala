@@ -425,6 +425,7 @@ span.d-header__tooltip--text5::after {
   box-shadow: 0 5px 15px rgba(246, 98, 105, 0.52);
   cursor: pointer;
   -webkit-appearance: none;
+  outline: none;
 }
 
 .d-search__form--btn:hover {
@@ -481,7 +482,7 @@ span.d-header__tooltip--text5::after {
   height: 50px !important;
   text-align: center;
   cursor: pointer;
-
+  outline: none;
   color: #fff;
   margin-bottom: 150px;
   font-size: 30px;
@@ -913,6 +914,7 @@ span.d-header__tooltip--text5::after {
   left: 0;
   z-index: 10 !important;
   -webkit-appearance: none;
+  outline: none;
 }
 
 .d-work__btn:hover,
@@ -1170,6 +1172,7 @@ span.d-header__tooltip--text5::after {
   font-size: 12px;
   text-align: center;
   -webkit-appearance: none;
+  outline: none;
 }
 
 .d-client__btn:hover,
