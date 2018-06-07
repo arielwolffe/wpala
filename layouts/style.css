@@ -424,6 +424,7 @@ span.d-header__tooltip--text5::after {
   color: #fff;
   box-shadow: 0 5px 15px rgba(246, 98, 105, 0.52);
   cursor: pointer;
+  -webkit-appearance: none;
 }
 
 .d-search__form--btn:hover {
@@ -480,16 +481,26 @@ span.d-header__tooltip--text5::after {
   height: 50px !important;
   text-align: center;
   cursor: pointer;
-  padding: 10px 10px 20px 10px;
+
   color: #fff;
   margin-bottom: 150px;
   font-size: 30px;
   background-color: #00aeef;
 }
 
+.d-slider__btn--next {
+  padding: 8px 5px 10px 10px;
+}
+
+.d-slider__btn--prev {
+  padding: 8px 13px 10px 10px;
+}
+
 /* On hover, add a black background color with a little bit see-through */
 .d-slider__btn--prev:hover,
-.d-slider__btn--next:hover {
+.d-slider__btn--prev:active,
+.d-slider__btn--next:hover,
+.d-slider__btn--next:active {
   background-color: #f66269;
 }
 
@@ -834,9 +845,11 @@ span.d-header__tooltip--text5::after {
   box-shadow: 0 5px 15px rgba(246, 98, 105, 0.52);
   cursor: pointer;
   outline: none;
+  -webkit-appearance: none;
 }
 
-.d-join__btn:hover {
+.d-join__btn:hover,
+.d-join__btn:active {
   background-color: #2ab7fc;
   border: #2ab7fc;
   color: #fff;
@@ -899,9 +912,11 @@ span.d-header__tooltip--text5::after {
   text-align: center;
   left: 0;
   z-index: 10 !important;
+  -webkit-appearance: none;
 }
 
-.d-work__btn:hover {
+.d-work__btn:hover,
+.d-work__btn:active {
   background-color: #2ab7fc;
   border: #2ab7fc;
   color: #fff;
@@ -1035,7 +1050,7 @@ span.d-header__tooltip--text5::after {
   }
 }
 .d-projects > div {
-  width: calc(100% * (1 / 2) - 5px - 5px);
+  width: calc(100% * (1 / 2) - 2px - 1px);
 }
 
 @media only screen and (max-width: 800px) {
@@ -1056,7 +1071,8 @@ span.d-header__tooltip--text5::after {
   border-radius: 15px;
 }
 
-.d-project:hover {
+.d-project:hover,
+.d-project:active {
   box-shadow: 0 5px 15px rgba(246, 98, 105, 0.52);
 }
 
@@ -1153,9 +1169,11 @@ span.d-header__tooltip--text5::after {
   font-family: "AvenirNextCyr-Light";
   font-size: 12px;
   text-align: center;
+  -webkit-appearance: none;
 }
 
-.d-client__btn:hover {
+.d-client__btn:hover,
+.d-client__btn:active {
   background-color: #2ab7fc;
   border: #2ab7fc;
   color: #fff;
@@ -1168,6 +1186,7 @@ span.d-header__tooltip--text5::after {
   font-size: 12px;
   text-align: center;
   margin-top: 30px;
+  -webkit-appearance: none;
 }
 
 /* =============================Contact=========================== */
@@ -1287,7 +1306,8 @@ span.d-header__tooltip--text5::after {
   font-size: medium;
 }
 
-.message--btn__send:hover {
+.message--btn__send:hover,
+.message--btn__send:active {
   background-color: #2ab7fc;
   border: #2ab7fc;
   color: #fff;
