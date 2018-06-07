@@ -110,7 +110,7 @@ button {
   top: 0;
   left: 0;
   margin: auto;
-  width: 100% !important;
+  width: 100%;
   z-index: 500;
 }
 
@@ -198,7 +198,6 @@ button {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  width: 100% !important;
 }
 
 .m-header {
@@ -244,7 +243,6 @@ button {
 
 .d-header__background--right {
   z-index: 1;
-  max-width: 80%;
   min-width: 80%;
   flex: 5;
   position: relative;
