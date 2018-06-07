@@ -628,6 +628,10 @@ span.d-header__tooltip--text5::after {
   .d-footer__content--textarea {
     padding-bottom: 70%;
   }
+
+  .d-footer__text--p {
+    border: none;
+  }
 }
 
 .d-footer__social {
