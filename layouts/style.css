@@ -1038,6 +1038,12 @@ span.d-header__tooltip--text5::after {
   width: calc(100% * (1 / 2) - 5px - 5px);
 }
 
+@media only screen and (max-width: 800px) {
+  .d-projects > div {
+    width: 100%;
+  }
+}
+
 .d-project {
   margin-bottom: 5px;
   height: 300px;
