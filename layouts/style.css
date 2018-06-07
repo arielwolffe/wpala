@@ -653,11 +653,11 @@ span.d-header__tooltip--text5::after {
 
 @media only screen and (max-width: 986px) {
   .d-footer__svg--img {
-    max-width: 50%;
+    width: 40%;
   }
 }
 
-@media only screen and (max-width: 1086px) {
+@media only screen and (max-width: 1186px) {
   .d-footer__svg--img {
     max-width: 60%;
   }
@@ -733,7 +733,7 @@ span.d-header__tooltip--text5::after {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin: 30px 0;
 }
@@ -741,6 +741,13 @@ span.d-header__tooltip--text5::after {
 .d-about__section {
   text-align: center;
   max-width: 210px;
+  margin: 0 50px;
+}
+
+@media only screen and (max-width: 983px) {
+  .d-about__section {
+    margin: 0 20px;
+  }
 }
 
 .d-about__section--img {
