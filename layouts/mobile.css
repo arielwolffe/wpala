@@ -9,7 +9,15 @@
   }
   .m-logo {
     display: inline-block;
-    width: 70%;
+  }
+
+  @media only screen and (max-width: 320px) {
+    .m-logo {
+      width: 70%;
+    }
+    .d-menu {
+      margin-right: 40px;
+    }
   }
 
   .m-logo__img {
@@ -708,5 +716,9 @@
 
   .m-work__section--h3 {
     margin-right: 70px;
+  }
+
+  .m-contact__container {
+    margin: 90px 0 0 80px;
   }
 }
